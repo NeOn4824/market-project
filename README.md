@@ -1,3 +1,18 @@
+Hello dear visitor,
+
+This project represents my start in the React App world development. Through this app, I tried to learn a lot of principles, methods, and tools like Redux, React Routing, FireBase and how is everything working under the hood of JSX and React.
+
+Being just a learning project I didn't give a lot of attention to designs and UX principles but I tried with all my desire to make the "engine" work like a Ferrari F12002 engine, accurate and well prepared for every task.
+
+Loading...
+
+Maybe you will find some concepts applied wrong or not in a professional style but it's a beginning and that's all that matters right now for myself. I am open for any changes and ideas.
+
+Thanks for your time,
+Rares
+
+----------------------------------------------------------------------------------*----------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
