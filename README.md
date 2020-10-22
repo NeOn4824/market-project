@@ -11,7 +11,7 @@ Maybe you will find some concepts applied wrong or not in a professional style b
 Thanks for your time,
 Rares
 
-----------------------------------------------------------------------------------*----------------------------------------------------------------------------------
+-----------------------------------------------------------------------------*-----------------------------------------------------------------------------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
