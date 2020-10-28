@@ -16,18 +16,27 @@ class App extends Component {
     };
   }
 
-  componentDidMount() {
-    auth.onAuthStateChanged((user) => {
-      this.setState({ currentUser: user });
+  unsubscribeFromAuth = null;
 
-      console.log(user.email);
+  componentDidMount() {
+    this.unsubscribeFromAuth = auth.onAuthStateChanged((user) => {
+      try {
+        this.setState({ currentUser: user });
+        console.log(user.email);
+      } catch {
+        console.log("no user logged in");
+      }
     });
+  }
+
+  componentWillUnmount() {
+    this.unsubscribeFromAuth();
   }
 
   render() {
     return (
       <div>
-        <Header />
+        <Header currentUser={this.state.currentUser} />
         <Route exact path="/" component={HomePage} />
         <Route path="/shop" component={ShopPage} />
         <Route exact path="/signin" component={SignInAndSignUpPage} />
